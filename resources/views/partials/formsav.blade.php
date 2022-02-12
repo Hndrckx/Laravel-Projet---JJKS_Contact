@@ -31,5 +31,5 @@
             <input type="file" class="form-control" id="inputGroupFile02">
           </div>
         
-     <button type="button" class="btn btn-danger m-3">Soumettre</button>
+     <button type="button" class="btn btn-danger m-3 mt-5">Soumettre</button>
 </form>

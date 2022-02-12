@@ -16,5 +16,5 @@
             <label for="exampleFormControlTextarea1" class="form-label text-danger">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-     <button type="button" class="btn btn-danger m-3">Envoyer</button>
+     <button type="button" class="btn btn-danger m-3 mt-5">Envoyer</button>
 </form>

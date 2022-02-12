@@ -31,5 +31,5 @@
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
         
-     <button type="button" class="btn btn-danger m-3">Transmettre</button>
+     <button type="button" class="btn btn-danger m-3 mt-5">Transmettre</button>
 </form>
