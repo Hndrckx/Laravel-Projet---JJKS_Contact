@@ -48,6 +48,9 @@
         </div>
       </nav>
     @yield('homecontent')
+    @yield('contactform')
+    @yield('savform')
+    @yield('partnerform')
 
 
 
