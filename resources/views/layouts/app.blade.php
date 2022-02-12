@@ -9,7 +9,7 @@
 </head>
 
 
-<body class='bg-dark'>
+<body class='bg-black'>
     <nav class="navbar navbar-expand-lg navbar-light bg-danger">
         <div class="container-fluid">
           <a class="navbar-brand fs-2 text-light" href="/">JUJUTSU KAISEN</a>
@@ -22,15 +22,15 @@
                 <a class="nav-link active fs-5" aria-current="page" href="/">Accueil</a>
               </li>
               <li class="nav-item ms-5">
-                <a class="nav-link fs-5" href="#">Infos</a>
+                <a class="nav-link fs-5" href="/infos">Infos</a>
               </li>
               <li class="nav-item dropdown ms-5">
                 <a class="nav-link dropdown-toggle fs-5" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Équipes
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Front End</a></li>
-                  <li><a class="dropdown-item" href="#">Back End</a></li>
+                  <li><a class="dropdown-item" href="/front">Front End</a></li>
+                  <li><a class="dropdown-item" href="/back">Back End</a></li>
                 </ul>
               </li> 
               <li class="nav-item dropdown ms-5">
@@ -38,9 +38,9 @@
                   Contact
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">SAV</a></li>
-                  <li><a class="dropdown-item" href="#">Partenariats</a></li>
-                  <li><a class="dropdown-item" href="#">Contactez-nous</a></li>
+                  <li><a class="dropdown-item" href="/sav">SAV</a></li>
+                  <li><a class="dropdown-item" href="/partner">Partenariats</a></li>
+                  <li><a class="dropdown-item" href="/contact">Contactez-nous</a></li>
                 </ul>
               </li>
             </ul>
@@ -76,8 +76,8 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
             <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>Jujutsu Kaisen
+            <h6 class="text-uppercase fw-bold mb-4 text-danger">
+              Jujutsu Kaisen
             </h6>
             <p>
               Here you can use rows and columns to organize your footer content. Lorem ipsum
@@ -89,7 +89,7 @@
           <!-- Grid column -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-danger">
               Products
             </h6>
             <p>
@@ -110,7 +110,7 @@
           <!-- Grid column -->
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-danger">
               Liens utiles
             </h6>
             <p>
@@ -131,16 +131,13 @@
           <!-- Grid column -->
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">
+            <h6 class="text-uppercase fw-bold mb-4 text-danger">
               Contact
             </h6>
-            <p><i class="fas fa-home me-3"></i>Tokyo, Japan</p>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              info@jjks.com
-            </p>
-            <p><i class="fas fa-phone me-3"></i> + 90 234 567 88</p>
-            <p><i class="fas fa-print me-3"></i> + 90 234 567 89</p>
+            <p>Tokyo, Japan</p>
+            <p>info@jjks.com</p>
+            <p>+ 90 234 567 88</p>
+            <p>+ 90 234 567 89</p>
           </div>
           <!-- Grid column -->
         </div>

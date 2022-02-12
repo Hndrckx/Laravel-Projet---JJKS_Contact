@@ -1,4 +1,4 @@
-@extends('partials.app')
+@extends('layouts.app')
 
 @section('homecontent')
     <div class="d-flex justify-content-center">
