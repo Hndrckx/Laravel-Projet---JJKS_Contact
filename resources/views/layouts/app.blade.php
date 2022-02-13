@@ -52,6 +52,7 @@
     @yield('savform')
     @yield('partnerform')
     @yield('infocontent')
+    @yield('frontcontent')
 
 
 
