@@ -34,7 +34,16 @@ Route::get('/sav', function () {
 });
 
 Route::get('/back', function () {
-    return view('layouts.teams.back');
+    $teamBack = [
+        ['Itadori','Yuji', 'exorcicste', 'itadori.jpg',   '0494 50 11 33', 'Classe 2'],
+        ['Fushiguro','Megumi', 'exorcicste', 'megumi.jpeg',   '0497 66 45 33', 'Classe 2'],
+        ['Kugisaki','Nobara', 'exorciste', 'nobara.png', '0496 53 11 33', 'Classe 2'],
+        ['Zenin','Maki', 'exorcicste', 'maki.png',    '0499 92 11 54', 'Classe 1'],
+        ['Inumaki','Toge', 'exorcicste', 'toge.png',    '0485 50 74 79', 'Classe 1'],
+        ['Okkotsu','Yuta',  'exorcicste', 'yuta.png',  '0473 47 11 24', 'Classe 1'],
+    ];
+
+    return view('layouts.teams.back', compact('teamBack'));
 });
 
 Route::get('/front', function () {

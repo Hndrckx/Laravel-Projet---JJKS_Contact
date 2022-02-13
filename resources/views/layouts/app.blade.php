@@ -53,6 +53,7 @@
     @yield('partnerform')
     @yield('infocontent')
     @yield('frontcontent')
+    @yield('backcontent')
 
 
 
